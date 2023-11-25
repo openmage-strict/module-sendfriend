@@ -1,0 +1,6 @@
+src/app/code/core/Mage/Sendfriend/                              app/code/core/Mage/Sendfriend/
+src/app/design/frontend/base/default/layout/sendfriend.xml      app/design/frontend/base/default/layout/sendfriend.xml
+src/app/design/frontend/base/default/template/sendfriend/       app/design/frontend/base/default/template/sendfriend/
+src/app/design/frontend/rwd/default/template/sendfriend/        app/design/frontend/rwd/default/template/sendfriend/
+src/app/etc/modules/Mage_Sendfriend.xml                         app/etc/modules/Mage_Sendfriend.xml
+src/app/locale/en_US/Mage_Sendfriend.csv                        app/locale/en_US/Mage_Sendfriend.csv
