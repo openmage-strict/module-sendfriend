@@ -5,6 +5,6 @@
     "type": "magento-module",
     "require": {
         "magento-hackathon/magento-composer-installer": "*",
-        "openmage-strict/module-catalog": "*"
+        "openmage-strict/module-catalog": "^120.2"
     }
 }
