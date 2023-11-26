@@ -4,3 +4,4 @@ src/app/design/frontend/base/default/template/sendfriend/       app/design/front
 src/app/design/frontend/rwd/default/template/sendfriend/        app/design/frontend/rwd/default/template/sendfriend/
 src/app/etc/modules/Mage_Sendfriend.xml                         app/etc/modules/Mage_Sendfriend.xml
 src/app/locale/en_US/Mage_Sendfriend.csv                        app/locale/en_US/Mage_Sendfriend.csv
+src/app/locale/en_US/template/email/product_share.html          app/locale/en_US/template/email/product_share.html
