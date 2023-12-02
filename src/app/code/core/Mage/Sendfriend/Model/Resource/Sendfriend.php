@@ -34,6 +34,9 @@ class Mage_Sendfriend_Model_Resource_Sendfriend extends Mage_Core_Model_Resource
      * @param int $startTime
      * @param int $websiteId
      * @return int
+     *
+     * @SuppressWarnings(PHPMD.ShortVariable)
+     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
     public function getSendCount($object, $ip, $startTime, $websiteId = null)
     {
@@ -60,6 +63,8 @@ class Mage_Sendfriend_Model_Resource_Sendfriend extends Mage_Core_Model_Resource
      * @param int $startTime
      * @param int $websiteId
      * @return $this
+     *
+     * @SuppressWarnings(PHPMD.ShortVariable)
      */
     public function addSendItem($ip, $startTime, $websiteId)
     {

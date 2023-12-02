@@ -27,6 +27,8 @@
  * @method $this setIp(int $value)
  * @method int getTime()
  * @method $this setTime(int $value)
+ *
+ * @SuppressWarnings(PHPMD.ExcessiveClassComplexity)
  */
 class Mage_Sendfriend_Model_Sendfriend extends Mage_Core_Model_Abstract
 {
@@ -160,6 +162,9 @@ class Mage_Sendfriend_Model_Sendfriend extends Mage_Core_Model_Abstract
      * Validate Form data
      *
      * @return bool|array
+     *
+     * @SuppressWarnings(PHPMD.CyclomaticComplexity)
+     * @SuppressWarnings(PHPMD.NPathComplexity)
      */
     public function validate()
     {
@@ -255,12 +260,12 @@ class Mage_Sendfriend_Model_Sendfriend extends Mage_Core_Model_Abstract
     /**
      * Set Website Id
      *
-     * @param int $id - website id
+     * @param int $websiteId - website id
      * @return $this
      */
-    public function setWebsiteId($id)
+    public function setWebsiteId($websiteId)
     {
-        $this->setData('_website_id', $id);
+        $this->setData('_website_id', $websiteId);
         return $this;
     }
 
@@ -279,6 +284,8 @@ class Mage_Sendfriend_Model_Sendfriend extends Mage_Core_Model_Abstract
      *
      * @param array $recipients
      * @return $this
+     *
+     * @SuppressWarnings(PHPMD.CyclomaticComplexity)
      */
     public function setRecipients($recipients)
     {
@@ -391,6 +398,8 @@ class Mage_Sendfriend_Model_Sendfriend extends Mage_Core_Model_Abstract
      * @param int $ip
      * @param int $startTime
      * @return int
+     *
+     * @SuppressWarnings(PHPMD.ShortVariable)
      */
     public function getSendCount($ip = null, $startTime = null)
     {
@@ -459,6 +468,8 @@ class Mage_Sendfriend_Model_Sendfriend extends Mage_Core_Model_Abstract
      *
      * @param bool $useCache - flag, is allow to use value of attribute of model if it is processed last time
      * @return int
+     *
+     * @SuppressWarnings(PHPMD.BooleanArgumentFlag)
      */
     public function getSentCount($useCache = true)
     {
@@ -498,6 +509,8 @@ class Mage_Sendfriend_Model_Sendfriend extends Mage_Core_Model_Abstract
      *
      * @param bool $increment - flag, increase count before return value
      * @return int
+     *
+     * @SuppressWarnings(PHPMD.BooleanArgumentFlag)
      */
     protected function _sentCountByCookies($increment = false)
     {
@@ -531,6 +544,8 @@ class Mage_Sendfriend_Model_Sendfriend extends Mage_Core_Model_Abstract
      *
      * @param bool $increment - flag, increase count before return value
      * @return int
+     *
+     * @SuppressWarnings(PHPMD.BooleanArgumentFlag)
      */
     protected function _sentCountByIp($increment = false)
     {

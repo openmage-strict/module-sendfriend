@@ -132,6 +132,7 @@ class Mage_Sendfriend_ProductController extends Mage_Core_Controller_Front_Actio
     /**
      * Send Email Post Action
      *
+     * @SuppressWarnings(PHPMD.CyclomaticComplexity)
      */
     public function sendmailAction()
     {

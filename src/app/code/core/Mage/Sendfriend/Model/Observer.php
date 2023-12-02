@@ -26,6 +26,8 @@ class Mage_Sendfriend_Model_Observer
      *
      * @param Varien_Event_Observer $observer
      * @return $this
+     *
+     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
     public function register(Varien_Event_Observer $observer)
     {
